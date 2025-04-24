@@ -1,0 +1,73 @@
+/* element */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgba(88, 244, 166, 0.492);
+}
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(64, 63, 63);
+  font-weight: bold;
+}
+
+/* class */
+.main-title {
+  background-color: rgb(189, 157, 219);
+  color: rgb(172, 66, 66);
+  font-size: 50px;
+  text-align: center;
+  border-radius: 9px;
+  /* padding: 10px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.nav-list li {
+  background-color: salmon;
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  /* padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px; */
+
+  border-radius: 6px;
+}
+.nav-list li:hover {
+  background-color: rgb(253, 81, 62);
+  transform: translateY(-3px);
+  transition: all 0.3s ease-in-out;
+}
+
+.class2 {
+  color: blue;
+}
+.class1 {
+  color: red;
+}
+
+/* id */
+#copyright {
+  color: chartreuse;
+}
